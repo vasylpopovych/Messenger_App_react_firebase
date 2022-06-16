@@ -8,7 +8,6 @@ const Message = ({ data }) => {
   const { auth } = useContext(Context);
   const [user] = useAuthState(auth);
 
-  console.log(data);
   return (
     <div
       className="messageContainer"

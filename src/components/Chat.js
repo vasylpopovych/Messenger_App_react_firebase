@@ -17,6 +17,7 @@ const Chat = () => {
  
 
   const sendMessage = async () => {
+    if (!value || value.trim().length === 0) return
     const docRef = await addDoc(collection(firestore, "messages"), {
       uid: user.uid,
       message: value,
@@ -26,6 +27,8 @@ const Chat = () => {
       createdAt: serverTimestamp(),
     });
     setValue("");
+    console.log(value)
+    
   };
 
   if (loading) return <Loader />;
