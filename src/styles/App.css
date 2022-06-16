@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid rgb(177, 181, 240);
+  border-color: rgb(166, 193, 233) transparent rgb(166, 193, 233) transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.messageContainer {
+  margin: 10px;
+  padding: 10px;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+}
+
+.messageAvatar{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.messageText{
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  height: fit-content;
+  font-style: 18px;
+}
