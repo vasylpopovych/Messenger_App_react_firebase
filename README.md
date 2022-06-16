@@ -1,12 +1,12 @@
-**Chat App**
+# Chat App
 
-_Stack:_
+### Stack:
 
-React
-React Create App
-React Router
-NPM
-Material UI
-Firebase
-Firebase Auth
-Firestore
+#### - React
+#### - React Create App
+#### - React Router
+#### - NPM
+#### - Material UI
+#### - Firebase
+#### - Firebase Auth
+#### - Firestore
