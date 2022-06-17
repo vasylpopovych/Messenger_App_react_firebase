@@ -1,5 +1,7 @@
 # Chat App
 
+## APP deployed to https://chat-react-firebase-e9de6.web.app/
+
 ### Stack:
 
 #### - React
@@ -10,3 +12,6 @@
 #### - Firebase
 #### - Firebase Auth
 #### - Firestore
+#### - Firestore Hosting
+
+
